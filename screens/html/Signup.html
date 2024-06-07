@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singup</title>
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="wrapper_singup">
+        <span class="icon-close">
+            <ion-icon name="close-circle"></ion-icon>
+        </span>
+        <div class="form-box"></div>
+        <form id="reg_form">
+            <h2>Sing Up</h2>
+
+            <div class="input-box">
+                <span class="icon"> <ion-icon name="person"></ion-icon></ion-icon></span>
+                <input type="full_name" id="fullname" required>
+                <label>Full Name</label>
+            </div>
+
+            <div class="input-box">
+                <span class="icon"> <ion-icon name="mail"></ion-icon></ion-icon></span>
+                <input type="email" required id="email" required>
+                <label>Email</label>
+            </div>
+
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" required id="password" required>
+                <label>Password</label>     
+            </div>
+            <!-- <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" required>
+                <label>Confirm Password</label>     
+            </div> -->
+            <div class="myremember-forgot">
+                    <label><input type="checkbox">
+                        I agree to RACO</label>
+                    <a href="#">Terms & Condiction</a>
+                <button type="submit" class="btn">Sing Up</button>
+                <div>
+                    
+            <div class="login-register">
+                    <p>Already have an account?<a href="Login.html" class="register-link">Login</a></p>
+                </div>
+                <span class="register-icon">
+                    <p>Register With:<a href="#" <ion-icon name="logo-google"></ion-icon><ion-icon name="logo-facebook"></ion-icon><ion-icon name="logo-google"></ion-icon></a></p>
+                </span>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="../js/singup.js"></script>
+</body>
+</html>

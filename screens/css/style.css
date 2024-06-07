@@ -1,0 +1,235 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: #a7a8a9; */
+    background: url('backgroung.jpg') no-repeat;
+    background-size: cover;
+    
+}
+
+.wrapper {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center; 
+    margin: 50px;
+    overflow: hidden;
+   
+    
+}
+
+.wrapper .form-box.login{
+    width: 100%;
+    padding: 40px;
+    
+}
+.wrapper h2{
+    font-size: 2em;
+    color: #162938;
+    text-align: center;
+    margin-top: 30px;
+}
+.wrapper .icon-close{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #162938;
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #162938;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .3s;
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+    font-size: 0.8em;
+    color: #777;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-top: 10px; 
+    font-size: 1em;
+    color: #162938;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #162938;
+    line-height: 57px;
+}
+.remember-forgot{
+    font-size: 1em;
+    color: #162938;
+    font-weight: 500;
+    margin: 15px 0;
+    justify-content: space-between;
+
+}
+.remember-forgot label input{
+    accent-color: #162938;
+    margin-left: 3px;
+}
+.remember-forgot a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    background: #FFEA20;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    color: black;
+    font-weight: bold;
+}
+.login-register{
+    font-size: .9em;
+    color: #162938;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+.login-register p a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}
+.login-register p a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* Singup Screen */
+.wrapper_singup {
+    position: relative;
+    width: 450px;
+    height: 620px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center; 
+    margin: 50px;
+    overflow: hidden;
+}
+.wrapper_singup .icon-close{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+.wrapper_singup h2{
+    font-size: 2em;
+    color: #162938;
+    text-align: center;
+    margin-top: 30px;
+}
+.myremember-forgot{
+    font-size: 1em;
+    color: #162938;
+    font-weight: 300;
+    margin: 15px 0;
+    justify-content: space-between;
+
+}
+.myremember-forgot label input{
+    accent-color: #162938;
+    margin-left: 3px;
+}
+.myremember-forgot a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+.myremember-forgot a:hover{
+    text-decoration: underline;
+}
+
+p{
+  font-size: 14px;
+  margin: 15px 0;
+  display: inline-block;
+  color: #000;
+  padding: 5px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 0;
+            border: 1px solid #ccc;
+        }  */
